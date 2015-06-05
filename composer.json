@@ -1,0 +1,10 @@
+{
+    "description" : "Mustache Specification",
+    "homepage": "http://github.com/jbboehr/mustache-spec",
+    "name" : "jbboehr/mustache-spec",
+    "keywords" : [
+        "mustache"
+    ],
+    "license": "LGPLv3",
+    "type" : "library"
+}

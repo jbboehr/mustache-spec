@@ -1,0 +1,17 @@
+Source: mustache-spec
+Section: libs
+Priority: extra
+Maintainer: John Boehr <jbboehr@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/mustache/spec
+Vcs-Git: git://github.com/mustache/spec.git
+Vcs-Browser: https://github.com/mustache/spec
+
+Package: mustache-spec
+Architecture: all
+Depends: ${misc:Depends}
+Description: Mustache Specification Data
+ The formal standard for Mustache. It defines both normal usage and edge-case behavior for libraries parsing the Mustache templating language (or a superset thereof).
+
+

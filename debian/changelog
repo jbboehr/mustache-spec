@@ -1,0 +1,12 @@
+mustache-spec (1.1.2-1~xenial0) xenial; urgency=medium
+
+  * Release to xenial
+  * Update copyright file
+
+ -- John Boehr <jbboehr@gmail.com>  Sat, 23 Apr 2016 19:20:21 -0700
+
+mustache-spec (1.1.2-1) unstable; urgency=low
+
+  * Initial release
+
+ -- John Boehr <jbboehr@gmail.com>  Sat, 30 May 2015 18:59:15 +0000

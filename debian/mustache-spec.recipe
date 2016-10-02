@@ -1,0 +1,4 @@
+# git-build-recipe format 0.4 deb-version {debupstream}-0~{revtime}
+lp:~jbboehr/+git/mustache-spec master
+merge debian lp:~jbboehr/+git/mustache-spec debian
+

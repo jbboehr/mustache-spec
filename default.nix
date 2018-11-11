@@ -1,10 +1,11 @@
 {
   pkgs ? import <nixpkgs> {},
-  mustacheSpecVersion ? "1.1.2",
-  mustacheSpecSrc ? null
+  mustacheSpecVersion ? null,
+  mustacheSpecSrc ? null,
+  mustacheSpecSha256 ? null
 }:
 
 pkgs.callPackage ./derivation.nix {
-  inherit mustacheSpecVersion mustacheSpecSrc;
+  inherit mustacheSpecVersion mustacheSpecSrc mustacheSpecSha256;
 }
 

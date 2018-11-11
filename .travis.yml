@@ -1,2 +1,5 @@
 language: nix
-
+before_install: nix-env -iA cachix -f https://github.com/NixOS/nixpkgs/tarball/889c72032f8595fcd7542c6032c208f6b8033db6
+script: nix-build --argstr mustacheSpecVersion $TRAVIS_BRANCH --arg mustacheSpecSrc `pwd` | cachix push jbboehr-ci
+env:
+  secure: "HAFVNj6dcsmJgWv4XrOqHfUOkwzOwdA96+l9v3GMcslM6oN6wtOAWUvdvPdq48ZJI0DvEp2nsXZPIwVxLyEEPUgLJqgxcw7PbH3yYA18WT8TJNSTM4/NxSCiOD02xPv94IIRh07MQroV5mALwG86XBxSP+iBquIX89kyjA82EI4="

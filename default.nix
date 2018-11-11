@@ -1,7 +1,7 @@
 {
   pkgs ? import <nixpkgs> {},
   mustacheSpecVersion ? null,
-  mustacheSpecSrc ? null,
+  mustacheSpecSrc ? ./.,
   mustacheSpecSha256 ? null
 }:
 
